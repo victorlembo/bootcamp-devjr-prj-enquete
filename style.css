@@ -14,7 +14,7 @@ button {
 
   font-size: 1rem;
 
-  border-radius: 4px;
+  border-radius: 5px;
   border: none;
 
   cursor: pointer;
@@ -64,9 +64,9 @@ input:focus {
   text-align: center;
 }
 
-.flex-container {
+.subcontainer {
   background-color: #591c63;
-  margin: 20px;
+  margin: 30px;
   border-radius: 10px;
 }
 
@@ -137,4 +137,39 @@ input:focus {
 
 .card-button {
   padding-top: 20px;
+}
+
+.footer {
+  font-size: 10px;
+  text-align: center;
+
+  margin: -25px 0 10px 0;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 620px) {
+ 
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+  .card-esportes,
+  .card-simulacao,
+  .card-estrategia {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .header {
+    padding: 15px;
+  }
 }
