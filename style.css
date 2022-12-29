@@ -26,7 +26,7 @@ button:hover {
 }
 
 input {
-  width: 60%;
+  width: 80%;
   height: 10px;
   padding: 0.9rem;
   font-size: 1.2rem;
@@ -41,33 +41,33 @@ input:focus {
 }
 
 .container {
-  background-color: #230e27;
+  background: linear-gradient(354deg, #641f6f 0%, #1e0c21 50%);
   margin: auto;
 
-  width: 600px;
+  width: 800px;
 
   border-radius: 10px;
   overflow: hidden;
+}
+
+.subcontainer {
+  background: linear-gradient(354deg, #1e0c21 0%, #641f6f 50%);
+  margin: 30px;
+  border-radius: 10px;
 }
 
 .title {
   color: #fecd23;
   padding: 20px;
   text-align: center;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 500;
 }
 
 .description {
   color: #cccccc;
-  padding-bottom: 20px;
+  padding: 20px;
   text-align: center;
-}
-
-.subcontainer {
-  background-color: #591c63;
-  margin: 30px;
-  border-radius: 10px;
 }
 
 .form {
@@ -81,7 +81,7 @@ input:focus {
   color: #ffffff;
   padding: 20px;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .cards {
@@ -98,7 +98,7 @@ input:focus {
   border-width: 10px;
   border-style: solid;
   border-color: #2638db;
-  background-color: #3560ef;
+  background: linear-gradient(354deg, #73cfff 0%, #3c5bef 50%);
   border-radius: 5px;
   padding: 20px;
 }
@@ -109,7 +109,7 @@ input:focus {
   border-width: 10px;
   border-style: solid;
   border-color: #2638db;
-  background-color: #3560ef;
+  background: linear-gradient(354deg, #73cfff 0%, #3c5bef 50%);
   border-radius: 5px;
   padding: 20px;
 }
@@ -120,7 +120,7 @@ input:focus {
   border-width: 10px;
   border-style: solid;
   border-color: #2638db;
-  background-color: #3560ef;
+  background: linear-gradient(354deg, #73cfff 0%, #3c5bef 50%);
   border-radius: 5px;
   padding: 20px;
 }
@@ -140,7 +140,7 @@ input:focus {
 }
 
 .footer {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 
   margin: -25px 0 10px 0;
@@ -148,8 +148,6 @@ input:focus {
 }
 
 @media screen and (max-width: 620px) {
- 
-
   .flex-container {
     flex-direction: column;
   }
