@@ -3,6 +3,21 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input {
+  width: 60%;
+  height: 10px;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #009e9e;
+}
+
 .container {
   background-color: #230e27;
   margin: auto;
@@ -28,9 +43,10 @@ body {
 }
 
 .form-title {
-  color: #cccccc;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
+  font-size: 22px;
 }
 
 .flex-container {
@@ -39,9 +55,14 @@ body {
   border-radius: 5px;
 }
 
+.form{
+  text-align: center;
+}
+
 .cards {
-  color: #cccccc;
+  color: #ffffff;
   display: flex;
   justify-content: space-around;
   padding: 20px;
 }
+
