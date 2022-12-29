@@ -55,8 +55,11 @@ input:focus {
   border-radius: 5px;
 }
 
-.form{
-  text-align: center;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
 }
 
 .cards {
@@ -64,5 +67,39 @@ input:focus {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+}
+
+.card-esportes {
+  width: 20%;
+  text-align: center;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #2638db;
+  background-color: #3560ef;
+  border-radius: 5px;
+}
+
+.card-simulacao {
+  width: 20%;
+  text-align: center;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #2638db;
+  background-color: #3560ef;
+  border-radius: 5px;
+}
+
+.card-estrategia {
+  width: 20%;
+  text-align: center;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #2638db;
+  background-color: #3560ef;
+  border-radius: 5px;
+}
+
+.image-group {
+  text-align: center;
 }
 
