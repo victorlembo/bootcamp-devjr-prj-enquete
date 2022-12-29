@@ -1,0 +1,47 @@
+body {
+  background-color: #cccccc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: #230e27;
+  margin: auto;
+
+  width: 600px;
+
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title {
+  color: #fecd23;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.description {
+  color: #cccccc;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.form-title {
+  color: #cccccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  background-color: #591c63;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.cards {
+  color: #cccccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
